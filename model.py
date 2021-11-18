@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 from xgboost import XGBRegressor
-from sklearn.model_selection import RandomizedSearchCV
+
 
 #capture the path of current folder
 curr_path = os.path.dirname(os.path.realpath(__file__))
