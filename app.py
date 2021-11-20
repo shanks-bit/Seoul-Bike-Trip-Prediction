@@ -11,14 +11,14 @@ with st.form("prediction form"):
     st.sidebar.info("Created By : Shashank Dhanai")
     st.sidebar.image("https://ep1.pinkbike.org/p5pb18439888/p5pb18439888.jpg", width=None)
     st.sidebar.subheader("Contact Information : ")
-    col1, mid, col2 = st.sidebar.beta_columns([1,1,20])
+    col1, mid, col2 = st.sidebar.columns([1,1,20])
     with col1:
         st.sidebar.subheader("LinkedIn : ")
     
     with col2:
         st.sidebar.markdown("[![Linkedin](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLsu_X_ZxDhuVzjTHvk4eZOmUDklreUExhlw&usqp=CAU)](https://www.linkedin.com/in/shashankdhanai/)")
 
-    col3, mid, col4 = st.sidebar.beta_columns([1,1,20])
+    col3, mid, col4 = st.sidebar.columns([1,1,20])
     with col3:
         st.sidebar.subheader("Github : ")
     
